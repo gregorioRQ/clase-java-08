@@ -66,6 +66,20 @@ public class Controllers {
     public void elimitarMascota(int id){
         ctrl.eliminarMascota(id);
     }
+    
+    
+    //---EstVeterinario
+    public void crearEvet(EstVeterinarios e){
+        ctrl.crearEstVet(e);
+    }
+    
+    public void editarEvet(EstVeterinarios e){
+        ctrl.editarEstVet(e);
+    }
+    
+    public void eliminarEvet(int id){
+        ctrl.eliminarEstVet(id);
+    }
 }
 
 
